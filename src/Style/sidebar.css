@@ -1,0 +1,35 @@
+.profile img {
+  margin: 15px auto;
+  display: block;
+  width: 130px;
+  height: 130px;
+  border: 5px solid #ffe348;
+  border-radius: 50%;
+}
+
+.profile h1 {
+  margin: 15px auto;
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.socialmedia_links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.MuiSvgIcon-root {
+  font-size: 2.5rem !important;
+
+  border-radius: 50% !important;
+  transition: 0.5s !important;
+  color: gray !important;
+}
+
+.MuiSvgIcon-root:hover {
+  font-size: 3rem !important;
+  color: white !important;
+}
