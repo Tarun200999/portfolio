@@ -6,7 +6,9 @@ import Education from "./Components/Education/Education";
 import Projects from "./Components/Project/Projects";
 import Certificates from "./Components/Certificate/Certificates";
 import Competitive from "./Components/Competitive/Competitive";
-import Conatact from "./Components/Contact/Contact";
+import Contact from "./Components/Contact/Contact";
+import Experience from "./Components/Experience/Experience";
+
 function App() {
   return (
     <>
@@ -38,7 +40,7 @@ function App() {
             <Projects />
           </div>
         </section>
-        <section id="Certificates">
+        <section id="certificates">
           <div className="check">
             <Certificates />
           </div>

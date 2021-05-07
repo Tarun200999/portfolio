@@ -1,6 +1,6 @@
 import React from "react";
 import Tarun from "../../Assets/tarun.jpg";
-import "../../Style/sidebar.css";
+import "./sidebar.css";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import MailIcon from "@material-ui/icons/Mail";
@@ -25,34 +25,49 @@ export default function SideBar() {
         <div className="sidebar_links">
           <nav id="navbar" class="nav-menu navbar">
             <ul>
+              <li id="sidebar_home">
+                <a href="#home" class="nav-link scrollto">
+                  <span>Home</span>
+                </a>
+              </li>
               <li>
-                <a href="#hero" class="nav-link scrollto active">
-                  <i class="bx bx-home"></i> <span>Home</span>
+                <a href="#aboutme" class="nav-link scrollto">
+                  <span>About</span>
+                </a>
+              </li>
+              <li>
+                <a href="#technology" class="nav-link scrollto">
+                  <span>Technology</span>
+                </a>
+              </li>
+              <li>
+                <a href="#education" class="nav-link scrollto">
+                  <span>Education</span>
+                </a>
+              </li>
+              <li>
+                <a href="#experience" class="nav-link scrollto">
+                  <span>Experience</span>
+                </a>
+              </li>
+              <li>
+                <a href="#projects" class="nav-link scrollto">
+                  <span>Projects</span>
+                </a>
+              </li>
+              <li>
+                <a href="#certificates" class="nav-link scrollto">
+                  <span>Certificates</span>
+                </a>
+              </li>
+              <li>
+                <a href="#competitive" class="nav-link scrollto">
+                  <span>Competitive</span>
                 </a>
               </li>
               <li>
                 <a href="#contactme" class="nav-link scrollto">
-                  <i class="bx bx-user"></i> <span>About</span>
-                </a>
-              </li>
-              <li>
-                <a href="#resume" class="nav-link scrollto">
-                  <i class="bx bx-file-blank"></i> <span>Resume</span>
-                </a>
-              </li>
-              <li>
-                <a href="#portfolio" class="nav-link scrollto">
-                  <i class="bx bx-book-content"></i> <span>Portfolio</span>
-                </a>
-              </li>
-              <li>
-                <a href="#services" class="nav-link scrollto">
-                  <i class="bx bx-server"></i> <span>Services</span>
-                </a>
-              </li>
-              <li>
-                <a href="#contact" class="nav-link scrollto">
-                  <i class="bx bx-envelope"></i> <span>Contact</span>
+                  <span>Contact</span>
                 </a>
               </li>
             </ul>

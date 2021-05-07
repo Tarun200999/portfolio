@@ -1,7 +1,7 @@
 import React from "react";
 
 function Education() {
-  return <div></div>;
+	return <div>Education</div>;
 }
 
 export default Education;

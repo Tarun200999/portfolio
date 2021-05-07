@@ -18,6 +18,10 @@ html {
 #main {
   margin-left: 250px;
 }
+
+#home {
+  transition: 0.3s;
+}
 @media (max-width: 1199px) {
   #header {
     left: -250px;
@@ -26,8 +30,23 @@ html {
     margin-left: 0;
   }
 }
+@media (min-width: 1199px) {
+  #home {
+    margin-top: -200px;
+    background: rgb(19, 20, 20);
+    background: linear-gradient(
+      90deg,
+      rgba(19, 20, 20, 1) 13%,
+      rgba(88, 93, 102, 1) 74%,
+      rgba(226, 236, 234, 1) 100%
+    );
+  }
+}
 
 section {
   padding: 60px 0;
   overflow: hidden;
+  width: auto;
+  height: 300px;
+  border: 1px solid black;
 }

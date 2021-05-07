@@ -1,7 +1,7 @@
 import React from "react";
 
 function Competitive() {
-  return <div></div>;
+	return <div>Competitive</div>;
 }
 
 export default Competitive;
