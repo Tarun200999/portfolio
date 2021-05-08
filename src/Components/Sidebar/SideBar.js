@@ -7,6 +7,7 @@ import MailIcon from "@material-ui/icons/Mail";
 import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 
 export default function SideBar() {
+  //console.log("data", document.scrollIntoView());
   return (
     <>
       <div className="sidebar">
