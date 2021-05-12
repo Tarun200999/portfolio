@@ -7,7 +7,6 @@ import MailIcon from "@material-ui/icons/Mail";
 import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 
 export default function SideBar() {
-  //console.log("data", document.scrollIntoView());
   return (
     <>
       <div className="sidebar">
@@ -27,32 +26,32 @@ export default function SideBar() {
           <nav id="navbar" class="nav-menu navbar">
             <ul>
               <li id="sidebar_home">
-                <a href="#home" class="nav-link scrollto">
+                <a href="#home" className="nav-link scrollto active">
                   <span>Home</span>
                 </a>
               </li>
               <li>
-                <a href="#aboutme" class="nav-link scrollto">
+                <a href="#aboutme" className="nav-link scrollto">
                   <span>About</span>
                 </a>
               </li>
               <li>
-                <a href="#technology" class="nav-link scrollto">
+                <a href="#technology" className="nav-link scrollto">
                   <span>Technology</span>
                 </a>
               </li>
               <li>
-                <a href="#education" class="nav-link scrollto">
+                <a href="#education" className="nav-link scrollto">
                   <span>Education</span>
                 </a>
               </li>
               <li>
-                <a href="#experience" class="nav-link scrollto">
+                <a href="#experience" className="nav-link scrollto">
                   <span>Experience</span>
                 </a>
               </li>
               <li>
-                <a href="#projects" class="nav-link scrollto">
+                <a href="#projects" className="nav-link scrollto">
                   <span>Projects</span>
                 </a>
               </li>

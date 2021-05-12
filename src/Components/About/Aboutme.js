@@ -1,19 +1,26 @@
 import React from "react";
-
+import "./aboutme.css";
 function Aboutme() {
+  const greeting = () => {
+    var today = new Date();
+    var curHr = today.getHours();
+
+    if (curHr < 12) {
+      return "Good Morning";
+    } else if (curHr < 18) {
+      return "Good Afternoon";
+    } else {
+      return "Good Evening";
+    }
+  };
   return (
     <>
       <div class="container">
-        <div class="section-title">
-          <h2>About Me</h2>
-          <p>
-            I am 3rd Year student at Maharaja surajmal Institute of Technology.
-            I am a Mern Stack Developer. I used to solve problem solving
-            question on various platfrom to enhance my data structures skills.
-            ThankYou
-          </p>
+        <div className="section-title">
+          <h2>ABOUT</h2>
+          <h3>A little about me ,</h3>
+          <p>Hello,{greeting()} My name is Tarun..</p>
         </div>
-
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right">
             <img src="assets/img/profile-img.jpg" class="img-fluid" alt="" />

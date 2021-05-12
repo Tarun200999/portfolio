@@ -10,6 +10,10 @@ import Contact from "./Components/Contact/Contact";
 import Experience from "./Components/Experience/Experience";
 
 function App() {
+  const handleScroll = (event) => {
+    console.log("hello");
+    console.log(event.target.scrollHeight);
+  };
   return (
     <>
       <header id="header">
@@ -17,9 +21,11 @@ function App() {
       </header>
       <section id="home"></section>
       <main id="main">
-        <section id="aboutme">
-          <Aboutme />
-        </section>
+        <div onScroll={(e) => handleScroll(e)}>
+          <section id="aboutme">
+            <Aboutme />
+          </section>
+        </div>
         <section id="technology">
           <div className="check">
             <Technology />
