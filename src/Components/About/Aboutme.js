@@ -1,5 +1,6 @@
 import React from "react";
 import "./aboutme.css";
+
 function Aboutme() {
   const greeting = () => {
     var today = new Date();
@@ -18,8 +19,8 @@ function Aboutme() {
       <div class="container">
         <div className="section-title">
           <h2>ABOUT</h2>
-          <h3>A little about me ,</h3>
-          <p>Hello,{greeting()} My name is Tarun..</p>
+          <h3>me ,</h3>
+          <p>Hello,{greeting()} Tarun</p>
         </div>
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right">

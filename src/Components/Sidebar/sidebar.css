@@ -22,7 +22,7 @@
 }
 
 .sidebar_link_active {
-  border-left: 2px solid blue;
+  border-bottom: 3px solid orange;
 }
 
 .profile img {
@@ -49,7 +49,7 @@
   justify-content: space-around;
 }
 .MuiSvgIcon-root {
-  font-size: 2.5rem !important;
+  font-size: 1.8rem !important;
 
   border-radius: 50% !important;
   transition: 0.2s !important;
@@ -57,6 +57,6 @@
 }
 
 .MuiSvgIcon-root:hover {
-  font-size: 3rem !important;
+  font-size: 2rem !important;
   color: white !important;
 }

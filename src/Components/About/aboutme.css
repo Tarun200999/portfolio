@@ -1,5 +1,5 @@
 .section-title h2 {
-	font-size: 10rem;
+	font-size: 5rem;
 
 	color: black;
 	-webkit-text-fill-color: lightgray; /* Will override color (regardless of order) */
@@ -9,9 +9,9 @@
 .section-title h3 {
 	position: relative;
 	top: -60px;
-	left: 30px;
+	left: 200px;
 	font-family: sans-serif;
-	font-size: 6rem;
+	font-size: 3rem;
 
 	z-index: 12;
 }
