@@ -20,7 +20,6 @@ function Aboutme() {
         <div className="section-title">
           <h2>ABOUT</h2>
           <h3>me ,</h3>
-          <p>Hello,{greeting()} Tarun</p>
         </div>
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right">
@@ -28,6 +27,7 @@ function Aboutme() {
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>UI/UX Designer &amp; Web Developer.</h3>
+            <p>Hello,{greeting()} Tarun</p>
             <p class="fst-italic">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.

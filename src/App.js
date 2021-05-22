@@ -8,6 +8,7 @@ import Certificates from "./Components/Certificate/Certificates";
 import Competitive from "./Components/Competitive/Competitive";
 import Contact from "./Components/Contact/Contact";
 import Experience from "./Components/Experience/Experience";
+import Home from "./Components/Home/Home";
 
 function App() {
   const handleScroll = (event) => {
@@ -19,7 +20,9 @@ function App() {
       <header id="header">
         <SideBar />
       </header>
-      <section id="home"></section>
+      <section id="home">
+        <Home />
+      </section>
       <main id="main">
         <div onScroll={(e) => handleScroll(e)}>
           <section id="aboutme">

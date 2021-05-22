@@ -30,7 +30,7 @@ body::-webkit-scrollbar-thumb:hover {
   width: 250px;
   transition: all ease-in-out 0.5s;
   z-index: 9997;
-  transition: all 0.5s;
+  transition: all 1s;
   padding: 0 15px;
   background: #1f1e1e;
   overflow-y: auto;
@@ -42,6 +42,7 @@ body::-webkit-scrollbar-thumb:hover {
 #home {
   transition: 0.3s;
 }
+/* Screen max width 1199px or less this class will  apply to it */
 @media (max-width: 1199px) {
   #header {
     left: -250px;
@@ -50,9 +51,10 @@ body::-webkit-scrollbar-thumb:hover {
     margin-left: 0;
   }
 }
+/* On screen min width 1199px or more this class will add */
 @media (min-width: 1199px) {
   #home {
-    margin-top: -150px;
+    margin-top: -450px;
 
     background: black;
   }
