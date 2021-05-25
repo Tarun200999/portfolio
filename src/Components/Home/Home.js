@@ -5,14 +5,11 @@ import "./home.css";
 function Home() {
 	return (
 		<>
-			<div>
+			<div className="home_content">
 				<div className="container">
-					<div className="Resume_button">
-						<a href="https://drive.google.com/file/d/18rPFjTwjEwH10_mYlJMWNm1lfcwr1YsM/view?usp=sharing">
-							My Resume
-						</a>
-					</div>
-
+					<a href="https://drive.google.com/file/d/18rPFjTwjEwH10_mYlJMWNm1lfcwr1YsM/view?usp=sharing">
+						<span className="home_resume_button">Resume Here</span>
+					</a>
 					<div className="row">
 						<div className="col-sm-8">
 							<div className="display_name">
@@ -26,7 +23,7 @@ function Home() {
 									src={Tarun}
 									width="250px"
 									height="250px"
-									className="img-fluid rounded-circle"
+									className="home_img_rounded_circle"
 								/>
 							</div>
 						</div>

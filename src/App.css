@@ -30,7 +30,7 @@ body::-webkit-scrollbar-thumb:hover {
   width: 250px;
   transition: all ease-in-out 0.5s;
   z-index: 9997;
-  transition: all 1s;
+  transition: all 0.5s;
   padding: 0 15px;
   background: #1f1e1e;
   overflow-y: auto;
@@ -52,7 +52,7 @@ body::-webkit-scrollbar-thumb:hover {
   }
 }
 /* On screen min width 1199px or more this class will add */
-@media (min-width: 1199px) {
+@media (min-width: 1198px) {
   #home {
     margin-top: -450px;
 
@@ -64,5 +64,4 @@ section {
   padding: 60px 0;
   overflow: hidden;
   width: auto;
-  border: 1px solid black;
 }

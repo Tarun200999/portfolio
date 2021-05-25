@@ -186,6 +186,13 @@ export default function SideBar() {
                   <span>Contact</span>
                 </a>
               </li>
+              <li onClick={() => addActiveClass()}>
+                <div className="resume_button">
+                  <a href="https://drive.google.com/file/d/18rPFjTwjEwH10_mYlJMWNm1lfcwr1YsM/view?usp=sharing">
+                    <span className="sidebar_resume_button">Resume Here</span>
+                  </a>
+                </div>
+              </li>
             </ul>
           </nav>
         </div>
