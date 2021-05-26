@@ -18,7 +18,7 @@
 }
 
 .sidebar_links a:hover {
-  border-bottom: 3px solid blue;
+  border-right: 3px solid blue;
 }
 .sidebar_links .resume_button a:hover {
   border-bottom: none;
@@ -44,7 +44,14 @@
   border: 2px solid white;
   border-radius: 50%;
 }
-
+#click {
+  position: fixed;
+  color: white;
+  background-color: black;
+  top: 15px;
+  left: 240px;
+  border-radius: 10px;
+}
 .profile h1 {
   margin: 15px auto;
   color: white;
@@ -70,4 +77,10 @@
 .MuiSvgIcon-root:hover {
   font-size: 2rem !important;
   color: white !important;
+}
+
+@media (max-width: 1198px) {
+  #sidebar_home {
+    color: yellow;
+  }
 }

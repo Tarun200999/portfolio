@@ -23,21 +23,15 @@ function Aboutme() {
         </div>
         <div class="row">
           <div className="col-lg-12">
-            <h3>Hello, {greeting()}</h3>
-            <p>
-              My name is Tarun , I am passinate about software devolpement and
-              innovations , I believe in powering community by making good
-              products..
-            </p>
+            <div className="about_content">
+              <h3>Hello, {greeting()}</h3>
+              <p>
+                My name is Tarun . I am passinate about software devolpement and
+                innovations , I believe in powering community by making good
+                products.Always try to do makes things perfect.
+              </p>
+            </div>
           </div>
-        </div>
-        <div className="row">
-          <div className="col-lg-6">
-            <ul>
-              <li>DOB 20 ,9 ,1999</li>
-            </ul>
-          </div>
-          <div className="col-lg-6"></div>
         </div>
       </div>
     </>

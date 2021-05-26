@@ -1,0 +1,18 @@
+.contact_content {
+	padding: 10px;
+	font-size: 1rem;
+	font-family: monospace;
+	font-weight: 200;
+}
+#mobile {
+	background-color: lightgray;
+	color: black;
+	border-radius: 5px;
+	padding: 5px;
+}
+#email {
+	background-color: black;
+	color: white;
+	padding: 5px;
+	border-radius: 5px;
+}

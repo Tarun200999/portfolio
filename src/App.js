@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import "./App.css";
 import SideBar from "./Components/Sidebar/SideBar";
 import Aboutme from "./Components/About/Aboutme";
@@ -15,13 +16,14 @@ function App() {
     console.log("hello");
     console.log(event.target.scrollHeight);
   };
+  const [sidebar, setSidebar] = useState(false);
   return (
     <>
       <header id="header">
         <SideBar />
       </header>
       <section id="home">
-        <Home />
+        <Home sidebar={sidebar} setSidebar={setSidebar} />
       </section>
       <main id="main">
         <div onScroll={(e) => handleScroll(e)}>

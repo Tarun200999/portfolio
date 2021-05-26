@@ -2,7 +2,11 @@ import React from "react";
 import Tarun from "../../Assets/tarun.jpg";
 import "./home.css";
 
-function Home() {
+function Home({ sidebar, setSidebar }) {
+	const showSidebar = () => {
+		setSidebar(!sidebar);
+		console.log(sidebar);
+	};
 	return (
 		<>
 			<div className="home_content">

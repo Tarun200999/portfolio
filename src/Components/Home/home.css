@@ -5,9 +5,9 @@
 .home_content {
 }
 .home_resume_button {
-	background-color: blue;
+	background-color: lightgray;
 	color: white;
-	border: 1px solid blue;
+	border: 1px solid lightgray;
 	border-radius: 5px;
 	padding: 5px;
 	font-size: 15px;
