@@ -13,13 +13,37 @@ export default function SideBar() {
         <div className="sidebar_top">
           <div className="profile">
             <img src={Tarun} className="img-fluid rounded-circle" />
-
             <h1>Tarun</h1>
             <div className="socialmedia_links">
-              <WhatsAppIcon />
-              <GitHubIcon />
+              <WhatsAppIcon
+                onClick={() =>
+                  window.open(
+                    "https://wa.me/?text=Hi%20Tarun",
+                    "",
+                    "menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=350,width=480"
+                  )
+                }
+              />
+
+              <GitHubIcon
+                onClick={() =>
+                  window.open(
+                    "https://github.com/Tarun200999",
+                    "",
+                    "menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=350,width=480"
+                  )
+                }
+              />
               <FacebookIcon />
-              <MailIcon />
+              <MailIcon
+                onClick={() =>
+                  window.open(
+                    "https://mail.google.com/mail/?view=cm&fs=1&to=tk4977163@gmail.com&su=SUBJECT&body=Your Message",
+                    "",
+                    "menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=350,width=480"
+                  )
+                }
+              />
             </div>
           </div>
         </div>
