@@ -1,0 +1,25 @@
+.edu_content {
+	display: flex;
+	align-items: center;
+	margin: 10px;
+	border: 1px solid lightgray;
+	border-radius: 10px;
+}
+.edu_content img {
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+}
+
+.edu_data h1 {
+	font-size: 1.8rem;
+	font-weight: 300;
+}
+.edu_data h6 {
+	font-size: 1rem;
+	font-family: monospace;
+}
+#aps {
+	width: 150px;
+	height: 150px;
+}

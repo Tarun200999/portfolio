@@ -25,8 +25,8 @@ function Home({ sidebar, setSidebar }) {
 							<div className="profile_photo">
 								<img
 									src={Tarun}
-									width="250px"
-									height="250px"
+									width="200px"
+									height="200px"
 									className="home_img_rounded_circle"
 								/>
 							</div>

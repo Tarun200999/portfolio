@@ -1,16 +1,22 @@
 .home_img_rounded_circle {
 	border-radius: 50%;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+	border: 1px solid lightgray;
 }
 .home_content {
 }
 .home_resume_button {
-	background-color: lightgray;
+	background-color: blue;
 	color: white;
-	border: 1px solid lightgray;
+	border: 2px solid blue;
 	border-radius: 5px;
 	padding: 5px;
 	font-size: 15px;
+	font-weight: 500;
+	font-family: sans-serif;
+}
+a {
+	text-decoration: none;
 }
 
 .display_name {
@@ -33,7 +39,7 @@
 	}
 	.profile_photo {
 		display: flex;
-		justify-content: space-around;
 		align-items: center;
+		justify-content: space-around;
 	}
 }

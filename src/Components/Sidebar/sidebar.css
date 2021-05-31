@@ -21,7 +21,7 @@
   border-right: 3px solid blue;
 }
 .sidebar_links .resume_button a:hover {
-  border-bottom: none;
+  border: none;
 }
 
 .sidebar_link_active {
