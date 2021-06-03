@@ -1,4 +1,5 @@
 import React from "react";
+import python from "../../Assets/python.pdf";
 
 function Certificates() {
 	return (

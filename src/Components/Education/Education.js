@@ -64,6 +64,7 @@ function Education() {
 								</div>
 							</div>
 						</div>
+						<div className="col-sm-6"></div>
 					</div>
 				</div>
 			</div>

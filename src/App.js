@@ -7,7 +7,7 @@ import Education from "./Components/Education/Education";
 import Projects from "./Components/Project/Projects";
 import Certificates from "./Components/Certificate/Certificates";
 import Competitive from "./Components/Competitive/Competitive";
-import Contact from "./Components/Contact/Contact";
+
 import Experience from "./Components/Experience/Experience";
 import Home from "./Components/Home/Home";
 
@@ -59,11 +59,6 @@ function App() {
         <section id="competitive">
           <div className="check">
             <Competitive />
-          </div>
-        </section>
-        <section id="contactme">
-          <div className="check">
-            <Contact />
           </div>
         </section>
       </main>

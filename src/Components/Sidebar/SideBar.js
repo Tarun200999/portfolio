@@ -5,6 +5,7 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import MailIcon from "@material-ui/icons/Mail";
 import WhatsAppIcon from "@material-ui/icons/WhatsApp";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
 
 export default function SideBar() {
   return (
@@ -39,6 +40,15 @@ export default function SideBar() {
                 onClick={() =>
                   window.open(
                     "https://mail.google.com/mail/?view=cm&fs=1&to=tk4977163@gmail.com&su=SUBJECT&body=Your Message",
+                    "",
+                    "menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=350,width=480"
+                  )
+                }
+              />
+              <LinkedInIcon
+                onClick={() =>
+                  window.open(
+                    "https://www.linkedin.com/in/tarun-459a68171/",
                     "",
                     "menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=350,width=480"
                   )
@@ -90,11 +100,7 @@ export default function SideBar() {
                   <span>Competitive</span>
                 </a>
               </li>
-              <li>
-                <a href="#contactme">
-                  <span>Contact</span>
-                </a>
-              </li>
+
               <li>
                 <div className="resume_button">
                   <a href="https://drive.google.com/file/d/18rPFjTwjEwH10_mYlJMWNm1lfcwr1YsM/view?usp=sharing">

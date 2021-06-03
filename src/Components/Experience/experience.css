@@ -1,0 +1,42 @@
+.exp_content {
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	padding: 10px;
+	background-color: lightgray;
+	align-items: baseline;
+}
+.exp_content img {
+	width: 150px;
+	height: 150px;
+	padding-left: 10px;
+	border-radius: 10px;
+}
+.exp_data {
+	padding: 5px;
+}
+.exp_data a {
+	text-decoration-line: none;
+}
+.exp_data p {
+	padding-left: 10px;
+
+	border-radius: 5px;
+	font-style: italic;
+}
+.exp_data h4 {
+	font-weight: 400;
+	font-size: 1.2rem;
+}
+.exp_data h2 {
+	font-weight: 400;
+	font-size: 1.8rem;
+}
+
+@media (max-width: 1199px) {
+	.exp_content img {
+		width: 100px;
+		height: 100px;
+		padding-left: 10px;
+		border-radius: 10px;
+	}
+}
