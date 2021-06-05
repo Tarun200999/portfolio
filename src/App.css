@@ -37,6 +37,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 #main {
   margin-left: 250px;
+  margin-right: 5px;
 }
 
 #home {

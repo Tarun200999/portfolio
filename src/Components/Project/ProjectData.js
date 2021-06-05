@@ -1,6 +1,6 @@
 import React from "react";
 
-function ProjectData({ name, tech, link, glink }) {
+function ProjectData({ name, tech, link, glink, description }) {
 	return (
 		<>
 			<div className="project_content">
@@ -11,6 +11,8 @@ function ProjectData({ name, tech, link, glink }) {
 						<span className="tech_used">{i}</span>
 					))}
 				</h4>
+				<h4>Description :</h4>
+				<p>{description}</p>
 				<h4>
 					Project Link <a href={link[0]}>{link[1]}</a>
 				</h4>

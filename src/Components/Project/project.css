@@ -3,11 +3,16 @@
 	padding: 10px;
 	margin: 10px;
 	border-radius: 5px;
+	background-color: lightgray;
+}
+.project_content p {
+	margin: 10px;
+	font-style: italic;
 }
 
 .tech_used {
 	color: white;
-	background-color: blue;
+	background-color: orangered;
 	padding: 3px;
 	margin-left: 5px;
 	font-weight: 200;
