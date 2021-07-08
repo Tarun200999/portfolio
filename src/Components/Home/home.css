@@ -4,6 +4,8 @@
 	border: 1px solid lightgray;
 }
 .home_content {
+	background-color: ghostwhite;
+	padding: 10px;
 }
 
 .home_social_links {

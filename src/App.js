@@ -5,9 +5,8 @@ import Aboutme from "./Components/About/Aboutme";
 import Technology from "./Components/Technology/Technology";
 import Education from "./Components/Education/Education";
 import Projects from "./Components/Project/Projects";
-import Certificates from "./Components/Certificate/Certificates";
+// import Certificates from "./Components/Certificate/Certificates";
 import Competitive from "./Components/Competitive/Competitive";
-
 import Experience from "./Components/Experience/Experience";
 import Home from "./Components/Home/Home";
 
@@ -51,11 +50,11 @@ function App() {
             <Projects />
           </div>
         </section>
-        <section id="certificates">
+        {/* <section id="certificates">
           <div className="check">
             <Certificates />
           </div>
-        </section>
+        </section> */}
         <section id="competitive">
           <div className="check">
             <Competitive />

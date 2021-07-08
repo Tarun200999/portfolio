@@ -1,8 +1,8 @@
 .exp_content {
-	border: 1px solid lightgray;
+	border: 1px solid lightblue;
 	border-radius: 5px;
 	padding: 10px;
-	background-color: lightgray;
+	background-color: whitesmoke;
 	align-items: baseline;
 }
 .exp_content img {

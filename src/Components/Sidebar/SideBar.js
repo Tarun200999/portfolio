@@ -90,21 +90,21 @@ export default function SideBar() {
                   <span>Projects</span>
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#certificates">
                   <span>Certificates</span>
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a href="#competitive">
-                  <span>Competitive</span>
+                  <span>Data Structure & Algo</span>
                 </a>
               </li>
 
               <li>
                 <div className="resume_button">
-                  <a href="https://drive.google.com/file/d/18rPFjTwjEwH10_mYlJMWNm1lfcwr1YsM/view?usp=sharing">
-                    <span className="sidebar_resume_button">Resume Here</span>
+                  <a href="https://drive.google.com/drive/folders/186HOyGhWB-of5Qd-2RPVP60gg50a3zLw?usp=sharing">
+                    <span className="sidebar_resume_button">Resume</span>
                   </a>
                 </div>
               </li>

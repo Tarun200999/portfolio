@@ -39,6 +39,19 @@ function Projects() {
 								]}
 								description="This app is to generator a random password according to user requirement.User can choose length of password or charactor set."
 							/>
+							<ProjectData
+								name="Excel Clone"
+								tech={["Jquery", "HTML", "Css", "javascript"]}
+								link={[
+									"https://tarun200999.github.io/Excel_Clone/",
+									"Excel Clone",
+								]}
+								glink={[
+									"https://github.com/Tarun200999/Excel_Clone",
+									"Excel Clone",
+								]}
+								description="This a Excel Clone using javascript , HTML , css and jquery . It is only UI and feature like multiple cell select , removing renaming deleting sheet , bold italic underline text color background color change , User can switch betwwen sheets, Speech to text and text to speech is added."
+							/>
 						</div>
 						<div className="col-sm-6">
 							<ProjectData

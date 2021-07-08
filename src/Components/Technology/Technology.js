@@ -12,6 +12,8 @@ import js from "../../Assets/tech/js.png";
 import mongodb from "../../Assets/tech/mongodb.png";
 import node from "../../Assets/tech/nodejs.png";
 import react from "../../Assets/tech/react.png";
+import jquery from "../../Assets/tech/jquery.png";
+
 function Technology() {
 	return (
 		<>
@@ -55,6 +57,10 @@ function Technology() {
 								<div className="tech_data">
 									<img src={mongodb} />
 									<h3>MongoDB</h3>
+								</div>
+								<div className="tech_data">
+									<img src={jquery} />
+									<h3>jquery</h3>
 								</div>
 							</div>
 						</div>

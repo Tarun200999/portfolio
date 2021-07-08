@@ -3,7 +3,7 @@
 	padding: 10px;
 	margin: 10px;
 	border-radius: 5px;
-	background-color: lightgray;
+	background-color: whitesmoke;
 }
 .project_content p {
 	margin: 10px;
@@ -12,10 +12,10 @@
 
 .tech_used {
 	color: white;
-	background-color: orangered;
+	background-color: purple;
 	padding: 3px;
 	margin-left: 5px;
-	font-weight: 200;
+	font-weight: 400;
 	font-size: 15px;
 	border-radius: 4px;
 }
@@ -30,6 +30,10 @@
 .project_content h4 {
 	font-weight: 400;
 	font-size: 1.2rem;
+}
+.project_content h5 {
+	font-weight: 300;
+	font-size: 1rem;
 }
 .project_content a {
 	text-decoration-line: none;

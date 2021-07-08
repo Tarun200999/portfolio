@@ -26,9 +26,9 @@ function Aboutme() {
             <div className="about_content">
               <h3>Hello, {greeting()}</h3>
               <p>
-                My name is Tarun . I am passinate about software devolpement and
-                innovations , I believe in powering community by making good
-                products.Always try to do makes things perfect.
+                My name is Tarun , I am Coder and Web Developer. I am pasinate
+                about software developement.I am hardworking and always try to
+                learn new things.
               </p>
             </div>
           </div>

@@ -1,0 +1,34 @@
+.dsa_content {
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	margin: 10px;
+	width: 25rem;
+}
+.dsa_content img {
+	height: 100px;
+	width: 100px;
+	margin-left: 10px;
+	border-radius: 50%;
+}
+.rating {
+	font-size: 20px;
+}
+.rating_data img {
+	height: 30px;
+	width: 30px;
+}
+.rating_data a {
+	font-size: 1.4rem;
+}
+.rating_data h3 {
+	font-family: monospace;
+	font-size: 1.4rem;
+}
+.dsa_data h3 {
+	font-weight: 300;
+}
+.dsa_data {
+	margin-left: 20px;
+}
