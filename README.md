@@ -1,3 +1,3 @@
-This is a portfolio wwbsite using REACTjs
+This is a portfolio website using REACTjs
 
 Portfolio Link : https://tarun-c854b.web.app/
