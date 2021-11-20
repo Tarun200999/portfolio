@@ -21,13 +21,32 @@ function Experience() {
                   <div className="col-sm-8">
                     <div className="exp_data">
                       <h2>Kylo Apps</h2>
-                      <h4>Role : Backend Developer </h4>
+                      <h4>Role : Backend Developer Intern</h4>
                       <h4>Job description</h4>
                       <p>
                         I am working on various projects . Some are from scratch
                         amd some from middle. My work is to make design database
                         scheama , bussiness logic of the Mobile/ Web application
                         and creating RESTAPI in EXPRESS , NODEJS , SQL / NOSQL .
+                        <br></br>
+                        <strong>Projects</strong>
+                        <ul>
+                          <li>Employee Data Managment </li>
+                          <li>Investor Portfolio </li>
+                          <li>Agriculter Auction Managment System </li>
+                          <li>Online Course Providing Application </li>
+                          <li>Fundraiser Application </li>
+                        </ul>
+                        <strong>Learnings</strong>
+                        <ul>
+                          <li>Authentication & AUthorization </li>
+                          <li>
+                            Payment Gatway Integration Paytm , Razorpay &
+                            CCavenue
+                          </li>
+                          <li>Schema Design </li>
+                          <li>API Optimization and many more...</li>
+                        </ul>
                       </p>
 
                       <h4>
@@ -56,13 +75,21 @@ function Experience() {
                   <div className="col-sm-8">
                     <div className="exp_data">
                       <h2>Techokids Private Limited</h2>
-                      <h4>Role : Backend Developer </h4>
+                      <h4>Role : Backend Developer Intern</h4>
                       <h4>Job description</h4>
                       <p>
                         My work was to create a RESTAPI and connect them with
                         the FrontEnd .I was working on 3 projects ( Student
                         dashboard , Teacher dashboard , Admin dashboard ). I
                         learn lot of things during Internship.
+                        <br></br>
+                        <strong>Projects</strong>
+                        <ul>
+                          <li>Online One to One Coding classes Application </li>
+                          <li>Student dashboard </li>
+                          <li>Teacher dashboard </li>
+                          <li>Admin dashboard </li>
+                        </ul>
                       </p>
 
                       <h4>

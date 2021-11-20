@@ -14,6 +14,8 @@ import node from '../../Assets/tech/nodejs.png'
 import react from '../../Assets/tech/react.png'
 import jquery from '../../Assets/tech/jquery.png'
 import sql from '../../Assets/tech/sql.png'
+import github from '../../Assets/tech/github.png'
+import clang from '../../Assets/tech/c.png'
 
 function Technology() {
   return (
@@ -67,6 +69,10 @@ function Technology() {
                   <img src={jquery} />
                   <h3>jquery</h3>
                 </div>
+                <div className="tech_data">
+                  <img src={github} />
+                  <h3>Github</h3>
+                </div>
               </div>
             </div>
             <div className="col-sm-6">
@@ -82,6 +88,10 @@ function Technology() {
                 <div className="tech_data">
                   <img src={java} />
                   <h3>Java</h3>
+                </div>
+                <div className="tech_data">
+                  <img src={clang} />
+                  <h3>language</h3>
                 </div>
               </div>
             </div>
